@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    text-align: center;
+    background-color: cadetblue;
+}
+.text-center{
+    display: flex;
+}
+.servico{
+    margin-left: 1rem;
+    text-align: left;
+}
+.servico img{
+    width: 9.5rem;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    text-align: center;
+}
+.planos{
+    display: flex;
+}
+.card{
+    margin-left: 1rem;
+    text-align: left;
+}
+.card-body button{
+    background-color: cadetblue;
+    width: 5rem;
+    border-radius: 0.4rem;
+}
+.card-body button a{
+    color: bisque;
+    text-decoration: none;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    text-align: center;
+    background-color: cadetblue;
+}
+.accordion-button{
+    background-color: burlywood;
+    color: chocolate;
+}
+.container3{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.contato button{
+    width: 13rem;
+    background-color: cadetblue;
+    color: bisque;
+    border-radius: 0.4rem;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.425);
+    color: white;
+    height: 3rem;
+    text-align: center;
+}
